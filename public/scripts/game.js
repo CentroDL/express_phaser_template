@@ -7,13 +7,18 @@ var states = {
    render: render
 }
 
-var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game', states);
+var game = new Phaser.Game(800, 600, Phaser.AUTO, 'my-game', states);
 
+function preload(){
 
-function preload(){}
+}
 
-function create(){}
+function create(){
 
-function update(){}
+}
+
+function update(){
+
+}
 
 function render(){}
